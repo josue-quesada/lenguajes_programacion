@@ -1,4 +1,4 @@
-package Practica_1
+package main
 
 func main() {
 
