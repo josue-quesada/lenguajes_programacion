@@ -7,9 +7,9 @@ import (
 )
 
 func count(s string) {
-	fmt.Println("Cantidad de palabras:", len(strings.Fields(s)))
-	fmt.Println("Cantidad de caracteres:", utf8.RuneCountInString(s))
-	fmt.Println("Cantidad de lineas:", strings.Count(s, "\n")+1)
+	fmt.Println("Words amount:", len(strings.Fields(s)))
+	fmt.Println("Characters amount:", utf8.RuneCountInString(s))
+	fmt.Println("Lines amount", strings.Count(s, "\n")+1)
 }
 
 func main() {
